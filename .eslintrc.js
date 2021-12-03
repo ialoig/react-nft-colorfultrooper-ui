@@ -72,16 +72,6 @@ module.exports = {
 				},
 				groups: ["builtin", "external", "parent", "sibling", "index"],
 			}
-		],
-		/** translations rules */
-		"i18n-json/valid-message-syntax": [2, {
-			syntax: "icu",
-		}],
-		"i18n-json/valid-json": 2,// linting of each JSON translation file
-		"i18n-json/sorted-keys": [2, { //automatic case-sensitive ascending sort of all keys in the translation file
-			order: "asc",
-			indentSpaces: 2,
-		}],
-		"i18n-json/identical-keys": 0, //compare each translation file's key structure with a reference translation file to ensure consistency
+		]
 	}
 }
