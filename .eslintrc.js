@@ -9,7 +9,6 @@ module.exports = {
 		"plugin:react/recommended",
 		"plugin:import/errors",
 		"plugin:import/warnings",
-		"plugin:i18n-json/recommended"
 	],
 	settings: {
 		"react": {
