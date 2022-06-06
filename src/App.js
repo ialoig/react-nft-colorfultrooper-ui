@@ -10,6 +10,15 @@ const CONTRACT_ADDR = "0xB63dEe6a8E4417a7e77327ed7137Dd4f853e0485"
 const OPENSEA_LINK = "https://testnets.opensea.io/assets/" + CONTRACT_ADDR + "/"
 // const TOTAL_MINT_COUNT = 50
 
+
+// https://github.com/NFT42/Avastars-Contracts
+// https://github.com/nounsDAO/nouns-monorepo
+// https://blog.simondlr.com/posts/flavours-of-on-chain-svg-nfts-on-ethereum
+// https://etherscan.io/address/0x0cfdb3ba1694c2bb2cfacb0339ad7b1ae5932b63#code#F7#L48
+// https://github.com/simondlr/neolastics/blob/master/packages/hardhat/contracts/ERC721.sol#L172
+// https://github.com/Untitled-Frontier/tlatc/blob/master/packages/hardhat/contracts/AnchorCertificates.sol#L178
+// https://github.com/larvalabs/cryptopunks/blob/master/contracts/CryptoPunksMarket.sol#L5
+
 const App = () => {
 
 	const [account, setAccount] = useState()
